@@ -1,0 +1,57 @@
+.projectBlock img {
+max-width: 60%;
+display: block;
+margin: auto;
+border-radius: 12px;
+
+
+}
+.project {
+    background-color: #0197F6;
+
+    height: 80vh;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+
+}
+.projectBlock a {
+    text-decoration: none;
+}
+.projectBlock h4 {
+    padding: 2rem 4rem;
+    font-size: 3.2rem;
+    color: white;
+}
+.projectBlock p {
+    font-size: 1.4rem;
+    padding: 0rem 4rem;
+    color: white;
+}
+.btnBox {
+    padding: 2rem 4rem;
+}
+.project button {
+    padding: 1.4rem 1.8rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #B1DFFB;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0197F6;
+}
+@media (max-width: 38em) {
+    .project {
+padding-top: 8rem;
+        background-color: #0197F6;
+
+height: fit-content;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+    
+    }
+    .projectBlock h4 {
+        padding: 2rem 4rem;
+        font-size: 2.8rem;
+        color: white;
+    }
+}

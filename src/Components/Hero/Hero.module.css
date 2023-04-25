@@ -1,0 +1,193 @@
+.section {
+    background-color: #0197F6;
+    color: white;
+height: 90vh;
+text-align: left;
+padding-left: 4rem;
+}
+h1 {
+    font-size: 14rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.heroimg {
+    width: 20%;
+}
+.greetings {
+    text-align: left;
+
+
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.imgNtext {
+    display: flex;
+align-items: center;
+height: 20rem;
+transition: all 2s ease-out;
+}
+.contactReveal {
+  font-size: 2.4rem;
+  padding: 4rem 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+
+}
+
+
+  
+  .show {
+    animation: fadeIn 1s ease-in-out forwards;
+
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(-50%);
+    }
+  }
+  .heroimg {
+    opacity: 0;
+    animation: fade 1s ease-in-out forwards;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.4);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .textBox {
+    font-size: 2.8rem;
+    padding: 3.6rem 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+  .heroBTns {
+    display: flex;
+gap: 1rem;
+align-items: center;
+
+
+
+  }
+  .viewBtn {
+padding: 1.4rem 2rem;
+border: none;
+border-radius: 12px;
+background-color: white;
+
+  }
+  .getInTouchBtn {
+    padding: 1.4rem 2rem;
+
+border-radius: 12px;
+background-color: #0197F6;
+color: white;
+border: 1.2px solid  white;
+  }
+  
+  .viewBtn a {
+    text-decoration: none;
+    color: #0197F6;
+  }
+
+
+  @media (max-width: 61em ) {
+    h1 {
+      font-size: 9rem;
+      font-family: 'PT Sans', sans-serif;
+  }
+  .heroimg {
+    width: 20%;
+}
+
+.imgNtext {
+  display: flex;
+align-items: center;
+height: 20rem;
+transition: all 2s ease-out;
+}
+.section {
+  background-color: #0197F6;
+  color: white;
+height: 90vh;
+text-align: left;
+padding-left: 4rem;
+}
+
+
+  }
+  @media (max-width: 42em) {
+    .section {
+      background-color: #0197F6;
+      color: white;
+padding-top: 6rem;
+  text-align: left;
+  padding-left: 4rem;
+  height: 70vh;
+
+  }
+  .textBox {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    margin-top: 6rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+  }
+  @media (max-width: 36em) {
+    h1 {
+      font-size: 6rem;
+      font-family: 'PT Sans', sans-serif;
+  }
+
+  .textBox {
+    font-size: 1.8rem;
+    padding: 2.2rem 0;
+
+    font-family: 'Quicksand', sans-serif;
+  }
+  .viewBtn {
+    font-size: .8rem;
+    padding: 1rem 1.6rem;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    
+      }
+      .getInTouchBtn {
+        padding: 1rem 1.4rem;
+        font-size: .8rem;
+    border-radius: 12px;
+    background-color: #0197F6;
+    color: white;
+    border: 1.2px solid  white;
+      }
+      
+      .imgNtext {
+        display: flex;
+    align-items: center;
+    height: 8rem;
+    transition: all 2s ease-out;
+    }
+    .heroimg {
+      width: 25%;
+    }
+    .contactReveal {
+      font-size: 2rem;
+      padding: 2rem 0;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 500;
+    
+    }
+  }
+

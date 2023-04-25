@@ -1,0 +1,82 @@
+.section {
+    padding: 2rem 14rem;
+    background-color: #0197F6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+gap: 4rem;
+font-family: 'Quicksand', sans-serif;
+
+
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.intro h3 {
+ font-size: 2.8rem;
+ letter-spacing: 2px;
+}
+.intro h4 {
+    font-size: 2.1rem;
+}
+.passion h6 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.interest {
+    border-left: 5px solid #B1DFFB;
+}
+.interest h5 {
+    line-height: 1.4;
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+.application h4  {
+font-size: 1.8rem;
+}
+.langs h6  {
+ font-size: 1.8rem;
+}
+@media (max-width: 38em) {
+    .section {
+        padding: 12rem 2rem 0rem 2rem;
+        background-color: #0197F6;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    gap: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+    }
+    .intro h3 {
+        font-size: 2.4rem;
+        letter-spacing: 2px;
+       }
+       .intro h4 {
+           font-size: 1.8rem;
+       }
+       .passion h6 {
+           font-size: 1.8rem;
+           line-height: 1.2;
+           letter-spacing: 1px;
+       }
+       .interest {
+           border-left: 5px solid #B1DFFB;
+       }
+       .interest h5 {
+           line-height: 1.2;
+           font-size: 2rem;
+           font-weight: 800;
+           padding-left: 1rem;
+       }
+       .application h4  {
+       font-size: 1.6rem;
+       }
+       .langs h6  {
+        font-size: 1.6rem;
+       }
+}

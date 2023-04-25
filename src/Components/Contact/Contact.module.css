@@ -1,0 +1,128 @@
+.section {
+    text-align: center;
+    background-color: #0197F6;
+    padding: 8rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.social{
+    height: 40px !important;
+    width: 40px !important;
+}
+.main {
+    /* padding: 12rem; */
+padding: 0 8rem ;
+    background-color: #B1DFFB;
+
+    border-radius: 18px;
+}
+.textBox {
+    padding: 2rem 4rem 8rem 4rem;
+    color: #0197F6;
+    text-align: center;
+    
+}
+.textBox h4 {
+    font-size: 3.2rem;
+    white-space: nowrap;
+    
+}
+.textBox p {
+    font-size: 1.8rem;
+}
+.CTA {
+    padding: 1.2rem 3rem;
+    border: 1px solid #0197F6;
+    border-radius: 8px;
+    margin: 2rem;
+    background-color: #0197F6;
+    color: #B1DFFB;
+        font-family: 'Quicksand', sans-serif;
+
+}
+.socials {
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+@media (max-width: 46em) {
+    .section {
+        text-align: center;
+        background-color: #0197F6;
+        padding: 8rem;
+        font-family: 'Quicksand', sans-serif;
+    
+    }
+    .main {
+        /* padding: 12rem; */
+    padding: 0 2rem ;
+        background-color: #B1DFFB;
+    
+        border-radius: 18px;
+    }
+    .textBox {
+        padding: 2rem 4rem 4rem 4rem;
+        color: #0197F6;
+        
+    }
+}
+@media (max-width: 40em) {
+    .textBox h4 {
+        font-size: 1.8rem;
+        white-space: nowrap;
+        
+    }
+    .social {
+        padding: 1.6rem;
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
+@media (max-width: 27em) {
+    .textBox h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        white-space: nowrap;
+        
+    }
+    .social {
+        padding: 1.6rem;
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .textBox p {
+        font-size: 1.3rem;
+    }
+    .textBox {
+        padding: 2rem;
+        color: #0197F6;
+        text-align: center;
+        
+    }
+
+}
+@media (max-width: 24em) {
+    .textBox h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        white-space: nowrap;
+        
+    }
+    .social {
+        padding: 1.2rem;
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .textBox p {
+        font-size: 1.3rem;
+    }
+    .textBox {
+        padding: 2rem;
+        color: #0197F6;
+        text-align: center;
+        
+    }
+
+}

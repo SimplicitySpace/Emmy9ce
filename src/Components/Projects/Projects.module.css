@@ -1,0 +1,98 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+align-items: center;
+
+padding: 6rem;
+    background-color: #0197F6;
+    justify-content: center;
+}
+.section main {
+background-color: #B1DFFB;
+margin: 1.8rem;
+border-radius: 18px;
+max-height: fit-content;
+}
+.section img {
+    max-width: 90%;
+    display: block;
+
+}
+.caption {
+    text-align: center;
+    font-size:2.2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  color: #0197F6;
+padding: 2rem;
+white-space: nowrap;
+}
+.link {
+    text-decoration: none;
+}
+@media (max-width: 58em ) {
+    .section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+    padding: 6rem;
+        background-color: #0197F6;
+        justify-content: center;
+    }
+}
+@media (max-width: 38em) {
+  
+    .section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+    padding: 2rem;
+        background-color: #0197F6;
+        justify-content: center;
+    }
+    .caption {
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+      color: #0197F6;
+    padding: 2rem;
+    white-space: nowrap;
+    }
+    
+}
+
+@media (max-width: 38em) {
+  
+    .section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    
+    padding: 0 2rem;
+        background-color: #0197F6;
+        justify-content: center;
+    }
+    .caption {
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+      color: #0197F6;
+    padding: 2rem;
+    white-space: nowrap;
+    }
+    .section img {
+        width: 80%;
+        display: block;
+    
+    }
+    .imgBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
