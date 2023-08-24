@@ -10,12 +10,6 @@ const ProjectsList = [
                 description: 'This data set contains 113,937 loans with 81 variables on each loan, including loan amount, borrower rate (or interest rate), current loan status, borrower income, and many others. I cleaned the data, manipulated and created visualizations to show why customers took loans and showed relationships between variables to derive Insight.',
                 link: 'https://github.com/9celytics/ProsperLoanDataset/blob/main/Project1-ProsperLoans.ipynb',
             },
-            // {
-            //     title: '',
-            //     img: '',
-            //     description: '',
-            //     // link: '',
-            // },
         ]
     },
     {
@@ -29,12 +23,6 @@ const ProjectsList = [
                 description: 'The dashboard shows insight on sales done in Nigeria and South Africa, the data contains 8905 rows. The data contains customers demographics, shipping status, sales producers, outlet type and a lot more.',
                 link: 'https://onedrive.live.com/view.aspx?resid=22265EFC6602193A!117&ithint=file%2cxlsx&wdo=2&authkey=!AFEmeB2ZkE1L8io',
             },
-            // {
-            //     title: '',
-            //     img: '',
-            //     description: '',
-            //     // link: '',
-            // },
         ]
     },
     {

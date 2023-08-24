@@ -25,7 +25,7 @@ const ProjectDetails = () => {
                         <p>{item.description}</p>
                         <div className={classes.btnBox}>
                             <a href={item.link}>
-                                <button>View Project </button>
+                                <button>View Project</button>
                             </a>
                         </div>
 
